@@ -1,0 +1,81 @@
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg,#0B6E4F,#0F9D58);
+    color: white;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* Main */
+
+.main {
+    background-color: #f5f7fa;
+}
+
+/* Metric Cards */
+
+.metric-card {
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+}
+
+.green {
+    background: linear-gradient(135deg,#11998e,#38ef7d);
+}
+
+.blue {
+    background: linear-gradient(135deg,#396afc,#2948ff);
+}
+
+.purple {
+    background: linear-gradient(135deg,#8e2de2,#4a00e0);
+}
+
+.orange {
+    background: linear-gradient(135deg,#f7971e,#ffd200);
+}
+
+.red {
+    background: linear-gradient(135deg,#ff416c,#ff4b2b);
+}
+
+/* Buttons */
+
+.stButton button {
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    background: #0F9D58;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.stButton button:hover {
+    background: #0B6E4F;
+}
+
+/* Tables */
+
+[data-testid="stDataFrame"] {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Inputs */
+
+.stTextInput input,
+.stNumberInput input {
+    border-radius: 10px;
+}
